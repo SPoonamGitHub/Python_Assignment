@@ -1,0 +1,10 @@
+def DisplayR(no):
+  print("no", end=" ")
+  DisplayR(no)  #Recursive call
+ 
+
+def main():
+ DisplayR(5)
+
+if __name__=="__main__":
+ main()

@@ -1,0 +1,14 @@
+i=1
+def DisplayR():
+  global i                
+  if(i<6):
+   print(i,end=" ")
+   i=i+1
+   DisplayR()  #Recursive call
+ 
+
+def main():
+ DisplayR()
+
+if __name__=="__main__":
+ main()

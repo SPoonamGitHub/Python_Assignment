@@ -1,0 +1,14 @@
+
+def DisplayR(i):
+                 
+  if(i>0):
+   print(i,end=" ")
+   i=i-1
+   DisplayR(i)  #Recursive call
+ 
+
+def main():
+ DisplayR(5)
+
+if __name__=="__main__":
+ main()
